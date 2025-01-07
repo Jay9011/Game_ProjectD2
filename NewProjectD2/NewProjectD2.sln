@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7} = {06592BE4-FEA0-4167-B409-B1B1DE75B1C7}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{2CD807F0-0170-42BB-A52F-2FD28EACC8BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AntTweakBar", "AntTweakBar", "{48893BFA-B911-45DA-AA4E-F84E383D8FC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{94E3FFB9-A228-4F81-90C0-B874BC2BFC16}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdPaerty\AntTweakBar\include\AntTweakBar.h = ThirdPaerty\AntTweakBar\include\AntTweakBar.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{8049FA72-BBD1-4A16-9906-BC3A24874EFF}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdPaerty\AntTweakBar\lib\Readme.txt = ThirdPaerty\AntTweakBar\lib\Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{4CE83053-3559-48DA-BA35-91EE4059D4F7}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\AntTweakBar\lib\x86\AntTweakBar.dll = ThirdParty\AntTweakBar\lib\x86\AntTweakBar.dll
+		ThirdParty\AntTweakBar\lib\x86\AntTweakBar.lib = ThirdParty\AntTweakBar\lib\x86\AntTweakBar.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{3D883005-E927-4F87-AD59-7378B1756214}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\AntTweakBar\lib\x64\AntTweakBar64.dll = ThirdParty\AntTweakBar\lib\x64\AntTweakBar64.dll
+		ThirdParty\AntTweakBar\lib\x64\AntTweakBar64.lib = ThirdParty\AntTweakBar\lib\x64\AntTweakBar64.lib
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Debug|x64.ActiveCfg = Debug|x64
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Debug|x64.Build.0 = Debug|x64
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Debug|x86.Build.0 = Debug|Win32
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Release|x64.ActiveCfg = Release|x64
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Release|x64.Build.0 = Release|x64
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Release|x86.ActiveCfg = Release|Win32
+		{06592BE4-FEA0-4167-B409-B1B1DE75B1C7}.Release|x86.Build.0 = Release|Win32
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Debug|x64.ActiveCfg = Debug|x64
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Debug|x64.Build.0 = Debug|x64
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Debug|x86.Build.0 = Debug|Win32
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Release|x64.ActiveCfg = Release|x64
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Release|x64.Build.0 = Release|x64
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Release|x86.ActiveCfg = Release|Win32
+		{8F5438D5-5D64-4C40-9BB3-D90D3E4D14CB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48893BFA-B911-45DA-AA4E-F84E383D8FC3} = {2CD807F0-0170-42BB-A52F-2FD28EACC8BC}
+		{94E3FFB9-A228-4F81-90C0-B874BC2BFC16} = {48893BFA-B911-45DA-AA4E-F84E383D8FC3}
+		{8049FA72-BBD1-4A16-9906-BC3A24874EFF} = {48893BFA-B911-45DA-AA4E-F84E383D8FC3}
+		{4CE83053-3559-48DA-BA35-91EE4059D4F7} = {8049FA72-BBD1-4A16-9906-BC3A24874EFF}
+		{3D883005-E927-4F87-AD59-7378B1756214} = {8049FA72-BBD1-4A16-9906-BC3A24874EFF}
+	EndGlobalSection
+EndGlobal
