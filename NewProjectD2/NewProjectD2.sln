@@ -36,6 +36,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{3D883005-E92
 		ThirdParty\AntTweakBar\lib\x64\AntTweakBar64.lib = ThirdParty\AntTweakBar\lib\x64\AntTweakBar64.lib
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TinyXML2", "TinyXML2", "{95A998F8-488D-4F6E-9951-A99C521BDDFA}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\tinyxml2\tinyxml2.cpp = ThirdParty\tinyxml2\tinyxml2.cpp
+		ThirdParty\tinyxml2\tinyxml2.h = ThirdParty\tinyxml2\tinyxml2.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29577691-37D4-4BF9-8649-A57AA824BB85}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -70,5 +81,6 @@ Global
 		{8049FA72-BBD1-4A16-9906-BC3A24874EFF} = {48893BFA-B911-45DA-AA4E-F84E383D8FC3}
 		{4CE83053-3559-48DA-BA35-91EE4059D4F7} = {8049FA72-BBD1-4A16-9906-BC3A24874EFF}
 		{3D883005-E927-4F87-AD59-7378B1756214} = {8049FA72-BBD1-4A16-9906-BC3A24874EFF}
+		{95A998F8-488D-4F6E-9951-A99C521BDDFA} = {2CD807F0-0170-42BB-A52F-2FD28EACC8BC}
 	EndGlobalSection
 EndGlobal
