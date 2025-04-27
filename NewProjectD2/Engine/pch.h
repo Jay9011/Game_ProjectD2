@@ -20,8 +20,8 @@
 #include <vector>
 
 // Direct 3D
-#include <d3d9.h>
-#include <d3dx9.h>
+// #include <d3d9.h>
+// #include <d3dx9.h>
 
 // framework
 #include "framework.h"
@@ -29,7 +29,7 @@
 
 using namespace std;
 
-#pragma comment(lib, "d3d9.lib")
-#pragma comment(lib, "d3dx9.lib")
+// #pragma comment(lib, "d3d9.lib")
+// #pragma comment(lib, "d3dx9.lib")
 
 #endif //PCH_H
